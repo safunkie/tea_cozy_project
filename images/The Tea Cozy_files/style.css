@@ -1,0 +1,151 @@
+html {
+  font-family: Helvetica, Arial, sans serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  margin: 0 auto;
+}
+
+body {
+  margin:0 auto;
+}
+
+header {
+  position: fixed;
+  padding-left: 10px;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  display: flex;
+  align-items: center;
+  background-color: black;
+  z-index: 5;
+  width: 100%;
+}
+
+header #logo {
+  height: 50px;
+}
+
+header nav {
+  position: fixed;
+  display: flex;
+  text-align: right;
+  justify-content: flex-end;
+  float: right;
+  right: 10px;
+}
+ nav li {
+   display: inline-block;
+   padding: 10px;
+ }
+
+nav a {
+  color: seashell;
+  list-style-type: none;
+}
+
+#mission {
+  position: relative;
+  background-image: url("images/img-mission-background.webp");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  top: 69px;
+  height: 700px;
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+#mission-text {
+  height: 100px;
+  background-color: black;
+  padding-bottom: 20px;
+  padding-left: 100px;
+  padding-right: 105px;
+  align-content: center;
+}
+
+#featured-tea {
+  position: relative;
+  top: 69px;
+  display: flex;
+  width: 1000px;
+  justify-content: center;
+  margin: 0 auto;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: none;
+}
+
+#featured-tea heading {
+  display: block;
+  width: 100%;
+  height: 150px;
+  position: relative;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+#tea-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#tea-images figure {
+  margin: 10px auto;
+}
+
+figcaption {
+  margin-top: 10px;
+}
+
+#locations {
+  position: relative;
+  background-image: url("images/img-locations-background.webp");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  top: 100px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+#locations h2 {
+  width: 100%;
+  margin: 0 auto;
+}
+
+#locations .location {
+  flex-wrap: wrap;
+  margin: 15px 20px;
+  width: 300px;
+  opacity: 1;
+  background-color: black;
+}
+
+footer {
+  position: relative;
+  top: 110px;
+  padding-bottom: 20px;
+}
+
+#contact {
+  height: 130px;
+  margin: 0 auto;
+}
+
+#copyright {
+  padding-left: 20px;
+  text-align: left;
+}
